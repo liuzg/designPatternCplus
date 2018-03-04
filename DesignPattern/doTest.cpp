@@ -1,7 +1,7 @@
 /*
  * doTest.cpp
  *
- *  Created on: 2018Äê2ÔÂ28ÈÕ
+ *  Created on: 2018Ã„Ãª2Ã”Ã‚28ÃˆÃ•
  *      Author: liu_z
  */
 #include <iostream>
@@ -26,7 +26,6 @@ void test_behavior_Mediator(void);
 void test_behavior_Reponsibility(void);
 void test_behavior_observer(void);
 void test_behavior_state(void);
-
 
 //===== Patterns of structural =====//
 void test_structural_adapter(void);
@@ -86,6 +85,7 @@ int main(void)
 #endif
 	cout << "Test behavior state" << endl;
 	test_behavior_state();
+
 
 #if 0
 	//===== Patterns of structural =====//
